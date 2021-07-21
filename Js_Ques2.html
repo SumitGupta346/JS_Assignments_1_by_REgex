@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Program to calculate bill amount JS Assignmet-2</title>
+    <script src="bill_cal.js"></script>
+</head>
+<body>
+    <fieldset style="width: 60%;">
+        <legend style="text-align: center;"><h3>Bill Calculator </h3></legend>
+            <form onsubmit="calculate();">
+                <table style="width: 60%;" >
+                    <tr>
+                        <td>Enter number of calls:</td>
+                        <td><input type="number" id="user_call" placeholder="Enter the no. of calls "></td>
+                    </tr>
+                    <tr>
+                        <td>Enter SMS:</td>
+                        <td><input type="number" id="user_sms" placeholder="Enter the no. of SMS"></td>
+                    </tr>
+                    <tr>
+                        <td><input type='reset' value="RESET" name='reset' /></td>
+                        <br/>
+                        <td><input type='submit' value='GET BILL' name='submit' /></td>
+                    </tr>
+                </table>
+            </form>
+    </fieldset>
+</body>
+</html>
